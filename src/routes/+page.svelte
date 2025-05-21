@@ -1,9 +1,11 @@
 <script>
   import Header from "$lib/Header.svelte";
   import BulmaExamples from "$lib/BulmaExamples.svelte";
+  import Nav from "$lib/Nav.svelte";
 </script>
 
 <Header subtitle="Home" />
+<Nav />
 
 <main class="content section">
   <h2>SvelteKit</h2>
