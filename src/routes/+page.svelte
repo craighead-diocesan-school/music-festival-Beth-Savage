@@ -1,6 +1,5 @@
 <script>
   import Header from "$lib/Header.svelte";
-  import BulmaExamples from "$lib/BulmaExamples.svelte";
   import Nav from "$lib/Nav.svelte";
 </script>
 
@@ -9,10 +8,11 @@
 
 <main class="content section">
   <img
+    class="column is-half"
     src="/hanny-naibaho.jpg"
     alt="One of the stages from the audience's view"
   />
-  <div class="text-box-1">
+  <div class="column is-half">
     <p>
       Welcome to the ultimate music festival experience! Get ready for a day
       filled with live music, great food, and unforgettable memories.
@@ -30,8 +30,12 @@
       favorite artists live, and make lasting memories with friends and family.
     </p>
   </div>
-  <img src="/aditya-chinchure.jpg" alt="A light show at the Festival" />
-  <div class="text-box-2">
+  <img
+    class="column is-half"
+    src="/aditya-chinchure.jpg"
+    alt="A light show at the Festival"
+  />
+  <div class="column is-half">
     <p>
       But the music is just the beginning. Our festival also boasts an
       impressive selection of food vendors, offering everything from classic
@@ -56,3 +60,17 @@
 <footer class="footer">
   <p class="has-text-centered">&copy; Craighead Diocesan School 2025</p>
 </footer>
+
+<style>
+  .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+  img {
+    width: 50%;
+    height: auto;
+  }
+</style>
