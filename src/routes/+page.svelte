@@ -1,6 +1,7 @@
 <script>
   import Header from "$lib/Header.svelte";
   import Nav from "$lib/Nav.svelte";
+  import Footer from "$lib/Footer.svelte";
 </script>
 
 <Header subtitle="Home" />
@@ -57,9 +58,7 @@
   </div>
 </main>
 
-<footer class="footer">
-  <p class="has-text-centered">&copy; Craighead Diocesan School 2025</p>
-</footer>
+<Footer />
 
 <style>
   .content {
@@ -84,8 +83,8 @@
     font-family: "Permanent Marker", cursive;
     opacity: 100%;
   }
-  main {
+  main.content{
     background-color: #1d2f3e;
-    margin: 0%;
+    margin-bottom: 0%;
   }
 </style>
