@@ -12,7 +12,7 @@
     src="/hanny-naibaho.jpg"
     alt="One of the stages from the audience's view"
   />
-  <div class="column is-half">
+  <div class="text column is-half">
     <p>
       Welcome to the ultimate music festival experience! Get ready for a day
       filled with live music, great food, and unforgettable memories.
@@ -35,7 +35,7 @@
     src="/aditya-chinchure.jpg"
     alt="A light show at the Festival"
   />
-  <div class="column is-half">
+  <div class="text column is-half">
     <p>
       But the music is just the beginning. Our festival also boasts an
       impressive selection of food vendors, offering everything from classic
@@ -67,10 +67,25 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-
   }
   img {
     width: 50%;
     height: auto;
+  }
+  .text {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 1%;
+    background-color: #e5c2dd;
+    align-items: center;
+    opacity: 99%;
+  }
+  p{
+    font-family: "Permanent Marker", cursive;
+    opacity: 100%;
+  }
+  main {
+    background-color: #1d2f3e;
+    margin: 0%;
   }
 </style>
