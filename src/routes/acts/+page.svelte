@@ -7,7 +7,13 @@
 <Header subtitle="Acts" />
 <Nav />
 <main class="content section">
-  <div class="top text">
+  <div class="top text column is-one-third">
+    <ul>
+      <li>Tickets: $200 per person</li>
+      <li>Age requirement: 15 years or older</li>
+    </ul>
+  </div>
+  <div class="top text column is-half">
     <p>
       The music festival boasts an exciting lineup of talented musicians from a
       variety of genres, promising a diverse and entertaining experience for all
@@ -103,10 +109,12 @@
     background-color: #1d2f3e;
     margin-bottom: 0%;
   }
+  ul {
+    font-family: "Permanent Marker", cursive;
+    opacity: 100%;
+    margin-top: 1%;
+  }
   .top {
-    align-self: center;
-    margin-left: 25%;
-    margin-right: 25%;
     font-size: 1.25em;
   }
   figcaption {

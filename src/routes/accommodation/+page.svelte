@@ -7,7 +7,13 @@
 <Header subtitle="Accommodations" />
 <Nav />
 <main class="content section">
-  <div class="top text">
+  <div class="top text column is-one-third">
+    <ul>
+      <li>Tent site: $15 per night</li>
+      <li>Tent site with tent included: $40 per night</li>
+    </ul>
+  </div>
+  <div class="top text column is-half">
     <p>
       Experience the ultimate music festival adventure with our tent
       accommodation packages! With our comfortable and convenient tents, you can
@@ -54,7 +60,7 @@
     />
     <figcaption>Image Vonecia Carswell</figcaption>
   </figure>
-  <div class=" top text column is-half">
+  <div class=" bottom text column is-half">
     <p>
       Don't miss out on this opportunity to enhance your music festival
       experience. Book your tent accommodation package today and get ready for
@@ -83,18 +89,28 @@
     font-family: "Permanent Marker", cursive;
     opacity: 100%;
   }
+  ul {
+    font-family: "Permanent Marker", cursive;
+    opacity: 100%;
+    margin-top:1%;
+  }
   main.content {
     background-color: #1d2f3e;
     margin-bottom: 0%;
   }
   .top {
-    align-self: center;
+    font-size: 1.25em;
+    padding: 1.5%;
+    align-items: center;
+    margin-top: 1%;
+  }
+  figcaption {
+    color: #f0eafa;
+    font-size: 0.5em;
+  }
+  .bottom {
     margin-left: 25%;
     margin-right: 25%;
     font-size: 1.25em;
   }
-    figcaption {
-        color: #f0eafa;
-        font-size: 0.5em;
-    }
 </style>
