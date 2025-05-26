@@ -15,7 +15,14 @@
       action.
     </p>
   </div>
-  <img class="column is-half" src="/krists-luhaers.jpg" alt="" />
+  <figure class="column is-half">
+    <img
+      src="/krists-luhaers.jpg"
+      alt="A girl at the camp ground"
+      caption="krists-luhaers"
+    />
+    <figcaption>Image Krists Luhaers</figcaption>
+  </figure>
   <div class="text column is-half">
     <p>
       Our tents are spacious and come equipped with everything you need for a
@@ -39,7 +46,14 @@
       friends, share stories, and create memories that will last a lifetime.
     </p>
   </div>
-  <img class="column is-half" src="/vonecia-carswell.jpg" alt="" />
+  <figure class="column is-half">
+    <img
+      src="/vonecia-carswell.jpg"
+      alt="A group of people at the festival campground"
+      caption="vonecia-carswell"
+    />
+    <figcaption>Image Vonecia Carswell</figcaption>
+  </figure>
   <div class=" top text column is-half">
     <p>
       Don't miss out on this opportunity to enhance your music festival
@@ -56,10 +70,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
-  img {
-    width: 50%;
-    height: auto;
   }
   .text {
     margin-top: 5%;
@@ -83,4 +93,8 @@
     margin-right: 25%;
     font-size: 1.25em;
   }
+    figcaption {
+        color: #f0eafa;
+        font-size: 0.5em;
+    }
 </style>

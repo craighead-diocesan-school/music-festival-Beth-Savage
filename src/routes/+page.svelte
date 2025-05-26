@@ -8,11 +8,13 @@
 <Nav />
 
 <main class="content section">
-  <img
-    class="column is-half"
-    src="/hanny-naibaho.jpg"
-    alt="One of the stages from the audience's view"
-  />
+  <figure class="column is-half">
+    <img
+      src="/hanny-naibaho.jpg"
+      alt="One of the stages from the audience's view"
+    />
+    <figcaption>Image Hanny Naibaho</figcaption>
+  </figure>
   <div class="text column is-half">
     <p>
       Welcome to the ultimate music festival experience! Get ready for a day
@@ -31,11 +33,10 @@
       favorite artists live, and make lasting memories with friends and family.
     </p>
   </div>
-  <img
-    class="column is-half"
-    src="/aditya-chinchure.jpg"
-    alt="A light show at the Festival"
-  />
+  <figure class="column is-half">
+    <img src="/aditya-chinchure.jpg" alt="A light show at the Festival" />
+    <figcaption>Image Aditya Chinchure</figcaption>
+  </figure>
   <div class="text column is-half">
     <p>
       But the music is just the beginning. Our festival also boasts an
@@ -67,10 +68,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  img {
-    width: 50%;
-    height: auto;
-  }
   .text {
     margin-top: 5%;
     margin-bottom: 5%;
@@ -79,12 +76,16 @@
     align-items: center;
     opacity: 99%;
   }
-  p{
+  p {
     font-family: "Permanent Marker", cursive;
     opacity: 100%;
   }
-  main.content{
+  main.content {
     background-color: #1d2f3e;
     margin-bottom: 0%;
+  }
+  figcaption {
+    color: #f0eafa;
+    font-size: 0.5em;
   }
 </style>

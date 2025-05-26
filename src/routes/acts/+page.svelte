@@ -14,7 +14,13 @@
       attendees.
     </p>
   </div>
-  <img class="column is-half" src="/tony-pham.jpg" alt="" />
+  <figure class="column is-half">
+    <img
+      src="/tony-pham.jpg"
+      alt="Looking over the audience to one of the stages with a colour show"
+    />
+    <figcaption>Image Tony Pham</figcaption>
+  </figure>
   <div class="text column is-half">
     <p>
       On the main stage, the headliners are a mix of established and
@@ -43,8 +49,20 @@
       discover new artists and support the next generation of musicians.
     </p>
   </div>
-  <img class="column is-half" src="/maxwell-collins.jpg" alt="" />
-  <img class="column is-half" src="/tijs-van-leur.jpg" alt="" />
+  <figure class="column is-half">
+    <img
+      src="/maxwell-collins.jpg"
+      alt="A back view of one of the performers and the audience"
+    />
+    <figcaption>Image Maxwell Collins</figcaption>
+  </figure>
+  <figure class="column is-half">
+    <img
+      src="/tijs-van-leur.jpg"
+      alt="An audience with orange light coming from stage"
+    />
+    <figcaption>Image Tijs van Leur</figcaption>
+  </figure>
   <div class="text column is-half">
     <p>
       Throughout the festival, DJs and electronic acts keep the energy up
@@ -68,10 +86,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  img {
-    width: 50%;
-    height: auto;
-  }
   .text {
     margin-top: 5%;
     margin-bottom: 5%;
@@ -80,6 +94,7 @@
     align-items: center;
     opacity: 99%;
   }
+
   p {
     font-family: "Permanent Marker", cursive;
     opacity: 100%;
@@ -88,10 +103,14 @@
     background-color: #1d2f3e;
     margin-bottom: 0%;
   }
-  .top{
+  .top {
     align-self: center;
     margin-left: 25%;
     margin-right: 25%;
     font-size: 1.25em;
+  }
+  figcaption {
+    color: #f0eafa;
+    font-size: 0.5em;
   }
 </style>
